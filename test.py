@@ -14,10 +14,10 @@ from datetime import datetime
 # ========================== 配置区 ==========================
 
 # 1. 定时触发时间（格式: YYYY-MM-DD HH:MM:SS）
-SCHEDULED_TIME = "2026-03-07 13:25:45"
+SCHEDULED_TIME = "2026-03-08 18:49:45"
 
 # 2. 发送总次数（同一个请求模板重复发送的次数）
-TOTAL_SENDS = 10
+TOTAL_SENDS = 1
 
 # 3. 公共配置（所有请求共享的 headers / 凭证）
 COMMON_HEADERS = {
@@ -26,7 +26,7 @@ COMMON_HEADERS = {
     "service-namespace": "PUBG_OFFICIAL",
     "service-url": "https://www.pubg.com/zh-cn/events/redeem",
     "Content-Type": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjoieXkwNkMwU2ZNRzNFWkg2bzVtcmNKR3FodTFCczNJSks1QkJjSGtVenlMbkxnRCtYcTlSQ1dmV05CWSsvcXBFbVVnd1g2NGtYREE3dU9nMlNPdzVzRFZ6eVVYNUNZNjdoWTZzZVNPZCtqem1oQWN3RXI0M3h4UTJRaERDYmlEaHBTck83U0hHWGdsSzRSY25QMXo3WTU2ZEZ0UEhBZHFZUFpHN240eHNjQ3d5YjVFSG5vcTF6WG9LSTdIcUxMTUVhcitScDRKazE2R3NqZFVpbHdKdG1qeFh3blpUTSsrSFczWDJ5WlhDUnRGNmJWVVJvcmhBVnhleThNQ0hvWmxmS3NwNElFVTVKZkxXZHhyZjRHY1pwVzA5dnpWTVdndXEvS2FkRGFuZkFMUHRHM0RIYW0xeUkzM1c3SmhrNzdJZnRnZG8zVzdrc3ZiNXA4SGFZL3Y1elBwZE1OTHkzZ3hDV29DVmM3Tlk0ZGdnPSIsImlhdCI6MTc3Mjg2MDY1MCwiZXhwIjoxNzcyODY0MjUwfQ.mBHd-jGKQ-zPTXb8P6YA52aNl47O2aaVkd93vL1gmTk",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjoieXkwNkMwU2ZNRzNFWkg2bzVtcmNKR3FodTFCczNJSks1QkJjSGtVenlMbkxnRCtYcTlSQ1dmV05CWSsvcXBFbVVnd1g2NGtYREE3dU9nMlNPdzVzRFZ6eVVYNUNZNjdoWTZzZVNPZCtqem1oQWN3RXI0M3h4UTJRaERDYmlEaHBTck83U0hHWGdsSzRSY25QMXo3WTU2ZEZ0UEhBZHFZUFpHN240eHNjQ3d5YjVFSG5vcTF6WG9LSTdIcUxMTUVhcitScDRKazE2R3NqZFVpbHdKdG1qeFh3blpUTSsrSFczWDJ5WlhDUnRGNmJWVVJvcmhBVnhleThNQ0hvWmxmS3NwNElFVTVKZkxXZHhyZjRHY1pwVzA5dnpWTVdndXEvS2FkRGFuZkFMUHRHM0RIYW0xeUkzM1c3SmhrNzdJZnRnZG8zVzdrc3ZiNXA4SGFZL3Y1elBwZE1OTHkzZ3hDV29DVmM3Tlk0ZGdnPSIsImlhdCI6MTc3MzMxNjE3OCwiZXhwIjoxNzczMzE5Nzc4fQ.jMgB0Yc3lGCNM7gLvlsWHlyT9v6QTiPAlCeIwcLYFoc",
 }
 
 # 4. 请求模板
@@ -38,7 +38,7 @@ REQUEST_TEMPLATE = {
         "namespace": "PUBG_OFFICIAL",
         "platformType": "STEAM",
         "nickName": "gyjeoz6ppm",
-        "redeemCode": "CHICKENPARTY9999",
+        "redeemCode": "XSHRBH5NY4ZG",
     },
 }
 
